@@ -1,0 +1,88 @@
+hr {
+    position: relative;
+    display: block;
+    width: 200%;
+    height: 5px;
+    background: #000;
+    margin: 140px 0 0 -50%;
+    border: none;
+    transform: rotate(
+13.5deg);
+    z-index: 10;
+}
+
+#container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    height: 450px;
+}
+div{
+    display: block;
+}
+
+body {
+
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    font-family: open sans,sans-serif;
+    font-size: 14px;
+}
+
+#container div {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.cat > #head {
+    background-image: url(images/cat.png);
+    z-index: 10;
+}
+
+.cat div {
+    background-position-y: 0;
+    background-position-x: 0;
+}
+
+.cat>#mouth {
+    background-image: url(images/mouth.png);
+    z-index: 20;
+}
+.cat>#paw-left {
+    background-image: url(../images/paw-left.png);
+    z-index: 30;
+
+}
+
+.cat>#paw-right {
+    background-image: url(../images/paw-right.png);
+    z-index: 30;
+
+}
+.cat>#paw-left:hover {
+    background-image: url(../images/paw-left.png);
+    z-index: 30;
+}
+.cat>#paw-right:hover {
+    background-image: url(../images/paw-right.png);
+    z-index: 30;
+    background-position-x: -800px;
+   
+}
+
+
+
+.instruments {
+    z-index: 20;
+}
+.instruments>#bongo, #layer-bongo {
+    background-image: url(images/bongo.png);
+}
+
+
